@@ -4,104 +4,227 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+     rel="stylesheet"
+     href="./assets/images/logos/favicon_io-ryuCheng/favicon-32x32.png"/>
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule="" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"
+    ></script>
     <!-- user master script -->
-    <link rel="stylesheet" href="/assets/style/master.css"/>
+    <link rel="stylesheet" href="/assets/style/master.css" />
     <title>Therapist</title>
   </head>
   <body>
+    <!-- NAVBAR -->
     <nav class="nav-bg" role="navigation">
       <div class="nav-wrapper container">
         <a id="logo-container" href="#" class="brand-logo">Ryu Cheng</a>
         <ul class="right hide-on-med-and-down">
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/assets/pages/resources.html">Resources</a></li>
-            <li><a href="/assets/pages/services.html">Services</a></li>
-            <li><a href="/assets/pages/contact.html">Contact</a></li>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/assets/pages/resources.html">Resources</a></li>
+          <li><a href="/assets/pages/services.html">Services</a></li>
+          <li><a href="/assets/pages/contact.html">Contact</a></li>
         </ul>
-  
+
         <ul id="nav-mobile" class="sidenav">
           <li><a href="/index.html">Home</a></li>
           <li><a href="/assets/pages/resources.html">Resources</a></li>
           <li><a href="/assets/pages/services.html">Services</a></li>
           <li><a href="/assets/pages/contact.html">Contact</a></li>
         </ul>
-        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"
+          ><i class="material-icons">menu</i></a
+        >
       </div>
     </nav>
-  
-    <div id="index-banner" class="parallax-container">
-      <div class="section no-pad-bot">
-        <div class="container">
-          <br><br>
-          <h1 class="header center teal-white text-lighten-2">Therapist Header</h1>
-          <div class="row center">
-            <h5 class="header col s12 light">Let's get started on finding the best action-oriented tools and solutions for you</h5>
+    <!-- HEADER -->
+    <header>
+      <div id="index-banner" class="parallax-container">
+        <div class="section no-pad-bot">
+          <div class="container">
+            <br /><br />
+            <h1 class="header center teal-white text-lighten-2">
+              Therapist Header
+            </h1>
+            <div class="row center">
+              <h5 class="header col s12 light">
+                Let's get started on finding the best action-oriented tools and
+                solutions for you
+              </h5>
+            </div>
+            <div class="row center">
+              <a
+                href=""
+                id="download-button"
+                class="btn-large waves-effect waves-light teal lighten-1"
+                >Schedule Appointment</a
+              >
+            </div>
+            <br /><br />
           </div>
-          <div class="row center">
-            <a href="" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Schedule Appointment</a>
-          </div>
-          <br><br>
-  
+        </div>
+        <div class="parallax">
+          <img
+            src="./assets/images/photography/sky-view.jpeg"
+            alt="Unsplashed background img 1"
+          />
         </div>
       </div>
-      <div class="parallax"><img src="./assets/images/photography/sky-view.jpeg" alt="Unsplashed background img 1"></div>
+    </header>
+
+    <!-- Modal Trigger -->
+
+    <div id="location-info" ="class="row">
+      <div class="container">
+        <div class="col s6"></div>
+          <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Ryu Cheng</a>
+      </div>
     </div>
-  
-  
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal bottom-sheet">
+      <div class="modal-content">
+        <h4>Ryu Cheng <span><img src="./assets/images/logos/psycology-today-verified.png" alt=""></span></h4>
+        Verified by Psychology today - Label
+        <p>School: MSW University of California, Berkeley</p>
+        <p>Year Graduated: 2006</p>
+        <p>License and State: 80417 California</p>
+      </div>
+      <div class="modal-footer">
+        <a
+          href="#!"
+          class="modal-action modal-close waves-effect waves-green btn-flat"
+          >Agree</a
+        >
+      </div>
+    </div>
+    <!-- Row OF Services -->
     <div class="container">
       <div class="section">
-
-
         <!--   Icon Section   -->
         <div class="row">
           <div class="col s12 m4">
             <div class="icon-block">
-              <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-              <h5 class="center">Speeds up development</h5>
-  
-              <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+              <h2 class="center brown-text"></h2>
+              <img
+                class="responsive-img"
+                src="https://images.pexels.com/photos/1311518/pexels-photo-1311518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              />
+              <h5 class="center">
+                <span class=""><i class="material-icons">flash_on</i></span
+                >Recieve a free consultation
+              </h5>
+              <p class="light">
+                We did most of the heavy lifting for you to provide a default
+                stylings that incorporate our custom components. Additionally,
+                we refined animations and transitions to provide a smoother
+                experience for developers.
+              </p>
             </div>
           </div>
-  
           <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-              <h5 class="center">User Experience Focused</h5>
-  
-              <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+            <div class="slider">
+              <ul class="slides">
+                <li>
+                  <img src="https://lorempixel.com/580/250/nature/1" />
+                  <!-- random image -->
+                  <div class="caption center-align">
+                    <h3>This is our big Tagline!</h3>
+                    <h5 class="light grey-text text-lighten-3">
+                      Here's our small slogan.
+                    </h5>
+                  </div>
+                </li>
+                <li>
+                  <img src="https://lorempixel.com/580/250/nature/2" />
+                  <!-- random image -->
+                  <div class="caption left-align">
+                    <h3>Left Aligned Caption</h3>
+                    <h5 class="light grey-text text-lighten-3">
+                      Here's our small slogan.
+                    </h5>
+                  </div>
+                </li>
+                <li>
+                  <img src="https://lorempixel.com/580/250/nature/3" />
+                  <!-- random image -->
+                  <div class="caption right-align">
+                    <h3>Right Aligned Caption</h3>
+                    <h5 class="light grey-text text-lighten-3">
+                      Here's our small slogan.
+                    </h5>
+                  </div>
+                </li>
+                <li>
+                  <img src="https://lorempixel.com/580/250/nature/4" />
+                  <!-- random image -->
+                  <div class="caption center-align">
+                    <h3>This is our big Tagline!</h3>
+                    <h5 class="light grey-text text-lighten-3">
+                      Here's our small slogan.
+                    </h5>
+                  </div>
+                </li>
+              </ul>
             </div>
           </div>
-  
+
           <div class="col s12 m4">
             <div class="icon-block">
-              <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-              <h5 class="center">Easy to work with</h5>
-  
-              <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+              <img
+                class="responsive-img"
+                src="https://images.pexels.com/photos/3340319/pexels-photo-3340319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              />
+              <h2 class="center brown-text"></h2>
+              <h5 class="center">
+                <span class=""><i class="material-icons">settings</i></span
+                >Martial Arts Therapy
+              </h5>
+
+              <p class="light">
+                We have provided detailed documentation as well as specific code
+                examples to help new users get started. We are also always open
+                to feedback and can answer any questions a user may have about
+                Materialize.
+              </p>
             </div>
           </div>
         </div>
-  
       </div>
     </div>
-  
-  
+
     <div class="parallax-container valign-wrapper">
       <div class="section no-pad-bot">
         <div class="container">
           <div class="row center">
-            <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+            <h5 class="header col s12 light">
+              A modern responsive front-end framework based on Material Design
+            </h5>
           </div>
         </div>
       </div>
-      <div class="parallax"><img src="./assets/images/photography/pexels-photo-132037.jpeg" alt="Unsplashed background img 2"></div>
+      <div class="parallax">
+        <img
+          src="./assets/images/photography/pexels-photo-132037.jpeg"
+          alt="Unsplashed background img 2"
+        />
+      </div>
     </div>
-    
+
     <!-- <div class="container">
       <div class="section">
   
@@ -114,27 +237,128 @@
   
       </div>
     </div> -->
-  
-  
+
+    <div class="row">
+      <div class="container">
+        <div class="col s12 m6 purple">
+          <div class="card-panel">
+            <h3>Finances</h3>
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="https://lorempixel.com/100/190/nature/6" />
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>
+                    I am a very simple card. I am good at containing small bits
+                    of information.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="#">This is a link</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6 teal">
+          <div class="card-panel">
+            <h3>Qualifications</h3>
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="./assets/images/photography/berkerly-banner.jpeg" />
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>
+                    I am a very simple card. I am good at containing small bits
+                    of information.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="#">This is a link</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="parallax-container valign-wrapper">
       <div class="section no-pad-bot">
         <div class="container">
           <div class="row center">
-            <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+            <h5 class="header col s12 light">
+              A modern responsive front-end framework based on Material Design
+            </h5>
           </div>
         </div>
       </div>
-      <div class="parallax"><img src="./assets/images/photography/pexels-photo-2440024.jpeg" alt="Unsplashed background img 3"></div>
+      <div class="parallax">
+        <img
+          src="./assets/images/photography/pexels-photo-2440024.jpeg"
+          alt="Unsplashed background img 3"
+        />
+      </div>
     </div>
-  
+    <div class="fixed-action-btn">
+      <a class="btn-floating btn-large red">
+        <i class="large material-icons">contact_phone</i>
+      </a>
+      <ul>
+        <li>
+          <a class="btn-floating red"
+            ><i class="material-icons">insert_chart</i></a
+          >
+        </li>
+        <li>
+          <a class="btn-floating yellow darken-1"
+            ><i class="material-icons">format_quote</i></a
+          >
+        </li>
+        <li>
+          <a class="btn-floating blue"
+            ><i class="material-icons">attach_file</i></a
+          >
+        </li>
+        <li>
+          <a class="btn-floating green"><i class="material-icons">phone</i></a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="row">
+      <div class="col s12 m6">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/sample-1.jpg" />
+            <span class="card-title">Issues</span>
+            <a class="btn-floating halfway-fab waves-effect waves-light red"
+              ><i class="material-icons">add</i></a
+            >
+          </div>
+          <div class="card-content">
+            <p>
+              I am a very simple card. I am good at containing small bits of
+              information. I am convenient because I require little markup to
+              use effectively.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer class="page-footer teal">
       <div class="container">
         <div class="row">
           <div class="col l6 s12">
+            row
             <h5 class="white-text">Ryu Cheng</h5>
-            <p class="grey-text text-lighten-4">Clinical Social Work/Therapist, LCSW</p>
-  
-  
+            <img src="./assets/images/photography/ryu-cheng.jpg">
+            <p class="grey-text text-lighten-4">
+              Clinical Social Work/Therapist, LCSW
+            </p>
           </div>
           <div class="col l3 s12">
             <h5 class="white-text">Resources</h5>
@@ -142,23 +366,26 @@
               <li><a class="white-text" href="#!">Link 1</a></li>
               <li><a class="white-text" href="#!">Link 2</a></li>
               <li><a class="white-text" href="#!">Link 3</a></li>
-              <li><a class="white-text" href="#!">Link 4</a></li>
             </ul>
           </div>
           <div class="col l3 s12">
             <h5 class="white-text">Connect</h5>
-            <ul>
-              <li><a class="white-text" href="#!">Link 1</a></li>
-              <li><a class="white-text" href="#!">Link 2</a></li>
-              <li><a class="white-text" href="#!">Link 3</a></li>
-              <li><a class="white-text" href="#!">Link 4</a></li>
+            <ul class="row">
+              <li><a class=" col s4 white-text" href="#!">Instagram</a></li>
+              <li><a class=" col s4 white-text" href="#!">FaceBook</a></li>
+              <li><a class=" col s4 white-text" href="#!">LinkedIn</a></li>
             </ul>
           </div>
         </div>
       </div>
       <div class="footer-copyright">
         <div class="container">
-        Designed & Developed by <a class="brown-text text-lighten-3" href="https://thebaydevelops.github.io/">The Bay Develops</a>
+          Designed & Developed by
+          <a
+            class="brown-text text-lighten-3"
+            href="https://thebaydevelops.github.io/"
+            >The Bay Develops</a
+          >
         </div>
       </div>
     </footer>
