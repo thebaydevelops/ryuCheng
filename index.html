@@ -3,19 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- icons -->
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <link
-     rel="stylesheet"
-     href="./assets/images/logos/favicon_io-ryuCheng/favicon-32x32.png"/>
-    <!-- Compiled and minified CSS -->
+
+  <!-- Favicons -->
+  <link rel="icon" sizes="16x16" href="./assets/images/logos/favicon_io-ryuCheng/favicon-16x16.png">
+  <link href="./assets/images/logos/favicon_io-ryuCheng/favicon-32x32.png" sizes="32x32" rel="icon">
+  <link href="./assets/images/logos/favicon_io-ryuCheng/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Materialize CDN -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
+    <!-- Material ICONS -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- ION ICONS -->
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"
@@ -24,8 +28,11 @@
       nomodule=""
       src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"
     ></script>
-    <!-- user master script -->
+
+    <!-- USER SCRIPTS -->
     <link rel="stylesheet" href="/assets/style/master.css" />
+
+    <!-- TITLE -->
     <title>Therapist</title>
   </head>
   <body>
@@ -69,8 +76,8 @@
             <div class="row center">
               <a
                 href=""
-                id="download-button"
-                class="btn-large waves-effect waves-light teal lighten-1"
+                id="appointment"
+                class="btn-large waves-effect waves-light"
                 >Schedule Appointment</a
               >
             </div>
@@ -86,23 +93,40 @@
       </div>
     </header>
 
-    <!-- Modal Trigger -->
-
-    <div id="location-info" ="class="row">
+    <!-- Location/ info modal -->
+    <div id="location" class="row">
       <div class="container">
-        <div class="col s6"></div>
-          <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Ryu Cheng</a>
+        <div class="col s6">
+          <br>445 Bellevue Avenue</br>
+          Suite 303</br>
+          Oakland, California 94610</br>
+          (510) 851-8991</p>
+        </div>
+        <a class="waves-effect waves-light modal-trigger col s6" href="#modal1">Ryu Cheng</a>
+    </div>
       </div>
     </div>
-
-    <!-- Modal Structure -->
     <div id="modal1" class="modal bottom-sheet">
-      <div class="modal-content">
-        <h4>Ryu Cheng <span><img src="./assets/images/logos/psycology-today-verified.png" alt=""></span></h4>
-        Verified by Psychology today - Label
-        <p>School: MSW University of California, Berkeley</p>
-        <p>Year Graduated: 2006</p>
-        <p>License and State: 80417 California</p>
+      <div class="modal-content row">
+        <div class="container">
+          <div class="client-info col s4">
+            <h3>Ryu Cheng</h3>
+            <p>School: MSW University of California, Berkeley</p>
+            <p>Year Graduated: 2006</p>
+            <p>License and State: 80417 California</p>
+          </div>
+          <div class="info-images col s4">
+            <img class="responsive-img" src="./assets/images/logos/psycology-today-verified.png" alt="">
+            <img class="responsive-img" src="./assets/images/logos/berkerly-banner.jpeg" alt="">
+          </div>
+          <div class="client-info col s4">
+            <h3>Ryu Cheng</h3>
+            <p>School: MSW University of California, Berkeley</p>
+            <p>Year Graduated: 2006</p>
+            <p>License and State: 80417 California</p>
+          </div>
+        </div>
+        
       </div>
       <div class="modal-footer">
         <a
@@ -112,14 +136,14 @@
         >
       </div>
     </div>
-    <!-- Row OF Services -->
+    <div class="row">
+      <!-- Row OF Services -->
     <div class="container">
       <div class="section">
         <!--   Icon Section   -->
         <div class="row">
           <div class="col s12 m4">
             <div class="icon-block">
-              <h2 class="center brown-text"></h2>
               <img
                 class="responsive-img"
                 src="https://images.pexels.com/photos/1311518/pexels-photo-1311518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
@@ -206,13 +230,17 @@
         </div>
       </div>
     </div>
+    </div>
+    
 
-    <div class="parallax-container valign-wrapper">
+    <!-- Testimonials -->
+    
+    <div id="testimonials" class="row parallax-container valign-wrapper">
       <div class="section no-pad-bot">
         <div class="container">
           <div class="row center">
             <h5 class="header col s12 light">
-              A modern responsive front-end framework based on Material Design
+              [testimonials go here!]
             </h5>
           </div>
         </div>
@@ -240,34 +268,32 @@
 
     <div class="row">
       <div class="container">
-        <div class="col s12 m6 purple">
-          <div class="card-panel">
-            <h3>Finances</h3>
-            <div class="card horizontal">
-              <div class="card-image">
-                <img src="https://lorempixel.com/100/190/nature/6" />
-              </div>
-              <div class="card-stacked">
-                <div class="card-content">
-                  <p>
-                    I am a very simple card. I am good at containing small bits
-                    of information.
-                  </p>
-                </div>
-                <div class="card-action">
-                  <a href="#">This is a link</a>
-                </div>
-              </div>
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="https://images.pexels.com/photos/53621/calculator-calculation-insurance-finance-53621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Finances<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Finances<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+              <p>Sliding Scale: Yes </br>
+                Pay By: Cash, Check, Health Savings Account, Mastercard, Paypal, Visa
+                Accepted Insurance Plans
+                Out of Network</p>
             </div>
           </div>
         </div>
 
-        <div class="col s12 m6 teal">
+        <div class="col s12 m6">
           <div class="card-panel">
             <h3>Qualifications</h3>
             <div class="card horizontal">
               <div class="card-image">
-                <img src="./assets/images/photography/berkerly-banner.jpeg" />
+                <img src="./assets/images/logos/berkerly-banner.jpeg" />
               </div>
               <div class="card-stacked">
                 <div class="card-content">
@@ -314,53 +340,66 @@
           >
         </li>
         <li>
-          <a class="btn-floating yellow darken-1"
-            ><i class="material-icons">format_quote</i></a
-          >
-        </li>
-        <li>
-          <a class="btn-floating blue"
-            ><i class="material-icons">attach_file</i></a
-          >
-        </li>
-        <li>
           <a class="btn-floating green"><i class="material-icons">phone</i></a>
         </li>
       </ul>
     </div>
 
     <div class="row">
-      <div class="col s12 m6">
-        <div class="card">
-          <div class="card-image">
-            <img src="images/sample-1.jpg" />
-            <span class="card-title">Issues</span>
-            <a class="btn-floating halfway-fab waves-effect waves-light red"
-              ><i class="material-icons">add</i></a
-            >
+      <div class="container">
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-image">
+              <img src="#" />
+              <span class="card-title">Issues</span>
+              <a class="btn-floating halfway-fab waves-effect waves-light red"
+                ><i class="material-icons">add</i></a
+              >
+            </div>
+            <div class="card-content">
+              <p>
+                I am a very simple card. I am good at containing small bits of
+                information. I am convenient because I require little markup to
+                use effectively.
+              </p>
+            </div>
           </div>
-          <div class="card-content">
-            <p>
-              I am a very simple card. I am good at containing small bits of
-              information. I am convenient because I require little markup to
-              use effectively.
-            </p>
+        </div>
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-image">
+              <img src="" />
+              <span class="card-title">Issues</span>
+              <a class="btn-floating halfway-fab waves-effect waves-light red"
+                ><i class="material-icons">add</i></a
+              >
+            </div>
+            <div class="card-content">
+              <p>
+                I am a very simple card. I am good at containing small bits of
+                information. I am convenient because I require little markup to
+                use effectively.
+              </p>
+            </div>
           </div>
         </div>
       </div>
+      
     </div>
-    <footer class="page-footer teal">
+    <footer id="footer" class="page-footer">
       <div class="container">
         <div class="row">
-          <div class="col l6 s12">
-            row
-            <h5 class="white-text">Ryu Cheng</h5>
-            <img src="./assets/images/photography/ryu-cheng.jpg">
-            <p class="grey-text text-lighten-4">
-              Clinical Social Work/Therapist, LCSW
-            </p>
+          <div id="shortBio" class="col s12 l6">
+            <div class="row">
+              <img class="responsive-img col s6 m3" src="./assets/images/photography/ryu-cheng.jpg">
+              <div id="bioContent" class="col s6">
+                <h5 class="">Ryu Cheng</h5>
+                <p class="">Clinical Social Work/Therapist, LCSW</p>
+                <div class="btn">Contact Me</div>
+              </div>
+            </div>
           </div>
-          <div class="col l3 s12">
+          <div id="resourceLinks" class="col l3 s12">
             <h5 class="white-text">Resources</h5>
             <ul>
               <li><a class="white-text" href="#!">Link 1</a></li>
@@ -368,12 +407,12 @@
               <li><a class="white-text" href="#!">Link 3</a></li>
             </ul>
           </div>
-          <div class="col l3 s12">
+          <div id="socialLinks" class="col l3 s12">
             <h5 class="white-text">Connect</h5>
-            <ul class="row">
-              <li><a class=" col s4 white-text" href="#!">Instagram</a></li>
-              <li><a class=" col s4 white-text" href="#!">FaceBook</a></li>
-              <li><a class=" col s4 white-text" href="#!">LinkedIn</a></li>
+            <ul>
+              <li><a class="white-text" href="#!"><ion-icon size="large" name="logo-instagram"></ion-icon></a></li>
+              <li><a class="white-text" href="#!"><ion-icon size="large" name="logo-facebook"></ion-icon></a></li>
+              <li><a class="white-text" href="#!"><ion-icon size="large" name="logo-linkedin"></ion-icon></a></li>
             </ul>
           </div>
         </div>

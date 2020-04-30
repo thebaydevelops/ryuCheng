@@ -1,0 +1,13 @@
+footer.page-footer{
+    background-color: $main-color-purple;
+}
+footer.btn{
+    background-color: red;
+}
+
+#shortBio .btn{
+    background-color: white;
+    color: black;
+    font-weight: 800;
+}
+@import '../../partials/socialLinks';
