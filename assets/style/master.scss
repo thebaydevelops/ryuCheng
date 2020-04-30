@@ -1,19 +1,12 @@
+// BASE STYLES
 @import './sass/base';
-// theme over-rides base colors / fonts / images etc.
+
+// THEME
 @import './sass/_theme';
 
-body{
-  font-family: 'Playfair Display', serif;
-}
-  
-  .icon-block {
-    padding: 0 15px;
-  }
-  .icon-block .material-icons {
-    font-size: inherit;
-  }
-  
-  footer.page-footer {
-    margin: 0;
-  }
-  
+// Components
+@import './sass/components/navbar/navbar';
+@import './sass/components/Header/header';
+@import './sass/components/Locations/locations';
+@import './sass/components/FixedContactButton/fixedContactButton';
+@import './sass/components/Footer/footer'
