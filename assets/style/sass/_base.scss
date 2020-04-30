@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,800;1,400;1,500;1,800&display=swap');
+p {
+    line-height: 2rem;
+}
+.indicators{
+    display: none;
+}
+@import './components/navbar/navbar';
+@import './components/Header/header';
+@import './components/FixedContactButton/fixedContactButton';
