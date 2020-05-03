@@ -4,9 +4,14 @@
 // THEME
 @import './sass/_theme';
 
+body{
+    background-color: $light-cream;
+}
+
 // Components
 @import './sass/components/navbar/navbar';
 @import './sass/components/Header/header';
 @import './sass/components/Locations/locations';
+@import './sass/components/Featured/featured';
 @import './sass/components/FixedContactButton/fixedContactButton';
 @import './sass/components/Footer/footer'

@@ -23,6 +23,10 @@ p {
   display: none;
 }
 
+body {
+  background-color: #fffcf9;
+}
+
 .nav-bg {
   background-color: white;
 }
@@ -38,7 +42,7 @@ nav .brand-logo {
 }
 
 #appointment {
-  background-color: #A87495;
+  background-color: #c0328c;
 }
 
 .parallax-container {
@@ -72,8 +76,21 @@ nav .brand-logo {
   background-color: white;
 }
 
+.neumorphic-card {
+  height: 450px;
+  border-radius: 40px;
+  background-color: #fffcf9;
+  -webkit-box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+          box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+}
+
+.neumorphic-card img {
+  width: 100%;
+  border-radius: 40ox;
+}
+
 footer.page-footer {
-  background-color: #A87495;
+  background-color: #c0328c;
 }
 
 footer.btn {

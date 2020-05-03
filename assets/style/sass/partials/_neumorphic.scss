@@ -1,0 +1,11 @@
+.neumorphic-card{
+    height: 450px;  
+    border-radius: 40px; 
+    background-color: $light-cream;
+    box-shadow: 13px 13px 20px #cbced1,
+                -13px -13px 20px #ffffff;
+}
+.neumorphic-card img{
+    width: 100%;
+    border-radius: 40ox;
+}

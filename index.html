@@ -8,34 +8,36 @@
   <link rel="icon" sizes="16x16" href="./assets/images/logos/favicon_io-ryuCheng/favicon-16x16.png">
   <link href="./assets/images/logos/favicon_io-ryuCheng/favicon-32x32.png" sizes="32x32" rel="icon">
   <link href="./assets/images/logos/favicon_io-ryuCheng/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Slick -->
+  <link rel="stylesheet" href="./assets/vendors/slick-1.8.1/slick/slick.css">
 
-    <!-- Materialize CDN -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
-    <!-- Material ICONS -->
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <!-- ION ICONS -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule=""
-      src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"
-    ></script>
+  <!-- Materialize CDN -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+  />
+  <!-- Material ICONS -->
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+  <!-- ION ICONS -->
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule=""
+    src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"
+  ></script>
 
-    <!-- USER SCRIPTS -->
-    <link rel="stylesheet" href="/assets/style/master.css" />
+  <!-- USER SCRIPTS -->
+  <link rel="stylesheet" href="/assets/style/master.css" />
 
-    <!-- TITLE -->
-    <title>Therapist</title>
-  </head>
-  <body>
+  <!-- TITLE -->
+  <title>Therapist</title>
+</head>
+<body>
     <!-- NAVBAR -->
     <nav class="nav-bg" role="navigation">
       <div class="nav-wrapper container">
@@ -136,14 +138,15 @@
         >
       </div>
     </div>
-    <div class="row">
+
+    <div id="featured" class="row">
       <!-- Row OF Services -->
     <div class="container">
       <div class="section">
         <!--   Icon Section   -->
         <div class="row">
           <div class="col s12 m4">
-            <div class="icon-block">
+            <div class="icon-block neumorphic-card">
               <img
                 class="responsive-img"
                 src="https://images.pexels.com/photos/1311518/pexels-photo-1311518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
@@ -208,7 +211,7 @@
           </div>
 
           <div class="col s12 m4">
-            <div class="icon-block">
+            <div class="icon-block neumorphic-card">
               <img
                 class="responsive-img"
                 src="https://images.pexels.com/photos/3340319/pexels-photo-3340319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
@@ -235,12 +238,16 @@
 
     <!-- Testimonials -->
     
-    <div id="testimonials" class="row parallax-container valign-wrapper">
+    <div id="" class="testimonialContainers row parallax-container valign-wrapper">
       <div class="section no-pad-bot">
         <div class="container">
           <div class="row center">
             <h5 class="header col s12 light">
-              [testimonials go here!]
+              <div id="testimonials" class="testimonials-wrapper">
+                <div>your content</div>
+                <div>your content</div>
+                <div>your content</div>
+              </div>
             </h5>
           </div>
         </div>
@@ -340,7 +347,7 @@
           >
         </li>
         <li>
-          <a class="btn-floating green"><i class="material-icons">phone</i></a>
+          <a class="btn-floating green" href="tel:555-555-5555"><i class="material-icons">phone</i></a>
         </li>
       </ul>
     </div>
@@ -436,6 +443,7 @@
     <!-- icons -->
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="/assets/vendors/slick-1.8.1/slick/slick.min.js"></script>
     <!-- user scripts -->
     <script src="/assets/scripts/init.js"></script>
   </body>
