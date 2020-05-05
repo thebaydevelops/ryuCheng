@@ -1,4 +1,17 @@
 #appointment{
-    background-color: $main-purple;
+    background-color: #F2A391;
+    color: #22374F;
+    font-weight: 500;
+    border: solid 1px rgb(1, 124, 124);
+    box-shadow: ;
+}
+header h5{
+    color: #F2E3D5;
+}
+header h1{
+    visibility: hidden;
+    margin-bottom: 0px;
 }
 @import '../../partials/parallax';
+@import '../../partials/box-shaddow';
+

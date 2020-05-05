@@ -9,6 +9,7 @@ body{
 }
 
 // Components
+@import './sass/components/Loader/loader';
 @import './sass/components/navbar/navbar';
 @import './sass/components/Header/header';
 @import './sass/components/Locations/locations';

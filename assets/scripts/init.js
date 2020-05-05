@@ -1,4 +1,7 @@
 (function($){
+    $(window).on("load", () => {
+        $('.loader-wrapper').fadeOut(500);
+    })
     $(function(){
         $('.sidenav').sidenav();
         $('.parallax').parallax();
