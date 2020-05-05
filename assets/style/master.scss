@@ -8,6 +8,8 @@ body{
     background-color: $light-cream;
 }
 
+// under-construction
+@import './sass/components/Underconstruction/under-construction';
 // Components
 @import './sass/components/Loader/loader';
 @import './sass/components/navbar/navbar';
